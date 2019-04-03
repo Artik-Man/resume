@@ -1,0 +1,215 @@
+ body {
+     box-sizing: border-box;
+     text-transform: uppercase;
+ }
+
+ //   body:before {
+ //     content: '';
+ //     position: fixed;
+ //     left: 0;
+ //     right: 0;
+ //     height: 0;
+ //     box-shadow: 0 0 5vh 5vh #10272f, 0 0 5vh 5vh #10272f;
+ //     z-index: 10;
+ //     background: #10272f;
+ //  }
+
+
+ .myPage {
+     min-height: 100vh;
+ }
+
+ .headcontainer {
+     width: 100%;
+     height: 50px;
+
+ }
+
+ .flex {
+     display: flex;
+     height: 49px;
+ }
+
+ .contacts {
+     position: relative;
+     margin: 0;
+     top: 14px;
+     left: 40%;
+ }
+
+ li {
+     display: inline;
+     padding: 5px 5px 5px;
+     margin-right: 3px;
+ }
+
+ .imagehh {
+     position: relative;
+     top: -10px;
+     left: 100px;
+     height: 45px;
+     display: block;
+     background: url(hh-logo.svg);
+     background-position: 8px 0px;
+     background-size: 132px;
+     background-repeat: no-repeat;
+     cursor: pointer;
+
+ }
+
+ .imageEmail {
+     position: relative;
+     top: -84px;
+     height: 56px;
+     width: 67px;
+     display: block;
+     background: url(icon-email.png);
+     background-position: 8px 11px;
+     background-size: 54px;
+     background-repeat: no-repeat;
+     cursor: pointer;
+
+ }
+
+ section {
+     position: relative;
+ }
+
+ .myBIO {
+     margin: 0 auto;
+
+ }
+
+ .ability {
+     font-size: 22px;
+     text-align: center;
+     text-transform: uppercase;
+     position: relative;
+     top: -52px;
+ }
+
+ h1 {
+     font-size: 75px;
+     text-align: center;
+     text-transform: uppercase;
+
+ }
+
+ .mainInformation {
+     height: 434px;
+
+ }
+
+
+ .information-container {
+     height: 434px;
+     width: 100%;
+  
+ }
+
+ .description {
+     position: relative;
+     left: 156px;
+     width: 500px;
+     height: 434px;
+     background-color: yellow;
+ }
+
+ table {
+     position: relative;
+     height: 434px;
+     width: 100px;
+     padding: 7px 74px 0px;
+
+ }
+ tbody{
+     padding: 0 0 0 ;
+ }
+
+ th {
+     text-align: left;
+     font-size: 13px;
+     font-family: sans-serif;
+     
+
+ }
+
+ .avatar {
+     width: 635px;
+     height: 434px;
+     float: right;
+
+     //  padding: 0px 221px;
+}
+
+ #experience {
+     padding: 50px;
+
+ }
+#age {
+     padding: 50px;
+ }
+
+ .skills-container {
+     position: relative;
+     top: 70px;
+     height: 150px;
+     width: 100%;
+
+
+     h2 {
+         text-align: center;
+     }
+
+     .skills {
+         display: inline;
+         list-style: none;
+         margin-left: 200px;
+
+     }
+
+     .skills li {
+         color: blue;
+         position: relative;
+         top: 23px;
+         padding: 0px 69px 0px;
+         font-variant: small-caps;
+         font-weight: bold;
+         text-align: center;
+         cursor: pointer;
+     }
+
+
+     .skills li:before {
+         position: absolute;
+         width: 10px;
+         height: 10px;
+         border-radius: 50%;
+         background: #4F5151;
+         content: "";
+         left: 0;
+         transition: .3s ease-in-out;
+         top: 2px;
+         right: 32px;
+
+     }
+
+     .skills li:after {
+         position: absolute;
+
+         width: 18px;
+         bottom: -12px;
+         content: "";
+         left: 3px;
+         top: 48px;
+
+     }
+
+     .skills li:hover:before {
+         box-shadow: 0 0 0 10px rgba(0, 0, 0, .2)
+     }
+
+     .skills li:last-child:after {
+         content: none;
+     }
+ }
