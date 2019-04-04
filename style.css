@@ -33,25 +33,18 @@ header a img {
   font-size: 22px;
   margin: 0;
 }
-.mainInformation {
-  height: 434px;
+.container-photo-info {
+  display: flex;
+  justify-content: center;
 }
-.information-container {
-  height: 434px;
-  width: 100%;
-}
-.description {
-  position: relative;
-  left: 156px;
-  width: 500px;
-  height: 434px;
-  background-color: yellow;
+.container-photo-info img {
+  height: 414px;
+  margin: 0 30px 0 10px;
 }
 table {
-  position: relative;
+  margin: 0 0 0 30px;
   height: 434px;
   width: 100px;
-  padding: 7px 74px 0px;
 }
 tbody {
   padding: 0 0 0;
@@ -61,64 +54,17 @@ th {
   font-size: 13px;
   font-family: sans-serif;
 }
-.avatar {
-  width: 635px;
-  height: 434px;
-  float: right;
-}
-#experience {
-  padding: 50px;
-}
-#age {
-  padding: 50px;
-}
-.skills-container {
-  position: relative;
-  top: 70px;
-  height: 150px;
-  width: 100%;
-}
 .skills-container h2 {
   text-align: center;
+  margin: 23px 0 40px 0;
 }
-.skills-container .skills {
-  display: inline;
+.skills-container ul {
+  align-items: center;
+  margin: 0 0 54px 0;
+}
+.skills-container li {
   list-style: none;
-  margin-left: 200px;
-}
-.skills-container .skills li {
-  color: blue;
-  position: relative;
-  top: 23px;
-  padding: 0px 69px 0px;
-  font-variant: small-caps;
-  font-weight: bold;
-  text-align: center;
-  cursor: pointer;
-}
-.skills-container .skills li:before {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: #4F5151;
-  content: "";
-  left: 0;
-  transition: 0.3s ease-in-out;
-  top: 2px;
-  right: 32px;
-}
-.skills-container .skills li:after {
-  position: absolute;
-  width: 18px;
-  bottom: -12px;
-  content: "";
-  left: 3px;
-  top: 48px;
-}
-.skills-container .skills li:hover:before {
-  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.2);
-}
-.skills-container .skills li:last-child:after {
-  content: none;
+  padding: 0 50px 0 0;
+  font-size: 20px;
+  margin: 37px 0 0 0;
 }
